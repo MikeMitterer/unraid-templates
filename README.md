@@ -18,7 +18,7 @@ Please use the GitHub Issues of the respective app's source repository, e.g.
 ```bash
 mkdir -p /boot/config/plugins/dockerMan/templates-user
 wget -O /boot/config/plugins/dockerMan/templates-user/my-stockinfo.xml \
-  https://raw.githubusercontent.com/MikeMitterer/unraid-templates/main/templates/stockinfo.xml
+  https://raw.githubusercontent.com/MikeMitterer/unraid-templates/master/templates/stockinfo.xml
 ```
 
 Then add the container via Docker → Add Container and select the `stockinfo` template.

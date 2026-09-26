@@ -7,6 +7,7 @@ Unraid Community Applications template repository by [Mike Mitterer](https://git
 | App | Description | Source | Image |
 |---|---|---|---|
 | **StockInfo** | Stock and ETF quotes via REST API (JSON) with Vue dashboard, SQLite cache and periodic refresh. Data sources: Yahoo Finance (yfinance), justETF, OpenFIGI. | [MikeMitterer/stockinfo](https://github.com/MikeMitterer/stockinfo) | [mangolila/stockinfo](https://hub.docker.com/r/mangolila/stockinfo) |
+| **StockPortfolio** | Browser-based portfolio management, valuation, price charts and rebalancing. Uses a separate StockInfo API; portfolio data stays in the browser. | [MikeMitterer/stockportfolio](https://github.com/MikeMitterer/stockportfolio) | [mangolila/stockportfolio](https://hub.docker.com/r/mangolila/stockportfolio) — publication pending |
 
 ## Support
 

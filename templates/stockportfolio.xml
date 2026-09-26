@@ -14,6 +14,7 @@
   <WebUI>http://[IP]:[PORT:8080]/</WebUI>
   <TemplateURL>https://raw.githubusercontent.com/MikeMitterer/unraid-templates/master/templates/stockportfolio.xml</TemplateURL>
   <Icon>https://raw.githubusercontent.com/MikeMitterer/stockportfolio/master/public/stockportfolio-icon.png</Icon>
+  <Screenshot>https://raw.githubusercontent.com/MikeMitterer/stockportfolio/master/docs/images/dashboard.png</Screenshot>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>

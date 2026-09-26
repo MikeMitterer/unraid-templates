@@ -6,6 +6,8 @@
 
     - **StockInfo** — self-hosted stock and ETF quote service: REST API (JSON) with a Vue dashboard, SQLite cache and periodic refresh. Data sources: Yahoo Finance (yfinance), justETF, OpenFIGI.
 
+    - **StockPortfolio** — browser-based portfolio management with valuation, price charts, target allocations and rebalancing simulations. Uses a separate StockInfo API; portfolios and settings stay in the browser.
+
     Support for each app is handled via GitHub Issues in the app's source repository (linked in the template).
   </Profile>
   <Icon>https://raw.githubusercontent.com/MikeMitterer/stockinfo/master/dashboard/public/stockinfo-icon.png</Icon>

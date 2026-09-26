@@ -1,6 +1,6 @@
 <CommunityApplications>
   <Profile>
-    Docker application templates for Unraid Community Applications, maintained by [Mike Mitterer](https://github.com/MikeMitterer).
+    Docker application templates for Unraid Community Applications, provided by [MangoLila](https://www.mangolila.at/).
 
     **Apps in this repository:**
 
@@ -10,6 +10,6 @@
 
     Support for each app is handled via GitHub Issues in the app's source repository (linked in the template).
   </Profile>
-  <Icon>https://github.com/MikeMitterer.png?size=256</Icon>
+  <Icon>https://raw.githubusercontent.com/MikeMitterer/unraid-templates/master/assets/mangolila-logo.png</Icon>
   <WebPage>https://github.com/MikeMitterer/unraid-templates</WebPage>
 </CommunityApplications>

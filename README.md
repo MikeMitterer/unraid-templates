@@ -1,6 +1,7 @@
 # unraid-templates
 
-Unraid Community Applications template repository by [Mike Mitterer](https://github.com/MikeMitterer).
+Unraid Community Applications templates by [MangoLila](https://www.mangolila.at/).
+Maintained by [Mike Mitterer](https://github.com/MikeMitterer).
 
 ## Apps
 

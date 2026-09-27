@@ -17,7 +17,7 @@
   <Screenshot>https://raw.githubusercontent.com/MikeMitterer/stockinfo/master/unraid/screenshots/dashboard.png</Screenshot>
   <Screenshot>https://raw.githubusercontent.com/MikeMitterer/stockinfo/master/unraid/screenshots/detail-area.png</Screenshot>
   <Screenshot>https://raw.githubusercontent.com/MikeMitterer/stockinfo/master/unraid/screenshots/swagger.png</Screenshot>
-  <License>AGPL-3.0-or-later</License>
+  <License>EUPL-1.2</License>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>

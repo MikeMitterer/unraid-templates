@@ -15,6 +15,9 @@
   <TemplateURL>https://raw.githubusercontent.com/MikeMitterer/unraid-templates/master/templates/stockportfolio.xml</TemplateURL>
   <Icon>https://raw.githubusercontent.com/MikeMitterer/stockportfolio/master/frontend/public/stockportfolio-icon.png</Icon>
   <Screenshot>https://raw.githubusercontent.com/MikeMitterer/stockportfolio/master/docs/images/dashboard.png</Screenshot>
+  <Screenshot>https://raw.githubusercontent.com/MikeMitterer/stockportfolio/master/docs/images/rebalancing.png</Screenshot>
+  <Screenshot>https://raw.githubusercontent.com/MikeMitterer/stockportfolio/master/docs/images/login.png</Screenshot>
+  <Screenshot>https://raw.githubusercontent.com/MikeMitterer/stockportfolio/master/docs/images/user-admin.png</Screenshot>
   <License>EUPL-1.2</License>
   <ExtraParams/>
   <PostArgs/>

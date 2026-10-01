@@ -32,4 +32,6 @@
   <Config Name="Public origin" Target="STOCKPORTFOLIO_PUBLIC_ORIGIN" Default="" Mode="" Description="Exact browser origin, including scheme and port, when using a reverse proxy (for example https://portfolio.example.com)." Type="Variable" Display="advanced" Required="false" Mask="false"/>
   <Config Name="Secure cookies" Target="STOCKPORTFOLIO_SECURE_COOKIES" Default="false" Mode="" Description="Set true when the app is served over HTTPS; required behind an HTTPS reverse proxy." Type="Variable" Display="advanced" Required="false" Mask="false">false</Config>
   <Config Name="Timezone" Target="TZ" Default="UTC" Mode="" Description="Timezone for container logs, for example Europe/Vienna. The web interface follows the browser timezone." Type="Variable" Display="always" Required="false" Mask="false">UTC</Config>
+  <Config Name="PUID" Target="PUID" Default="99" Mode="" Description="User ID the app runs as. The container prepares /data for this user on start. Default 99 (nobody); must not be 0." Type="Variable" Display="advanced" Required="false" Mask="false">99</Config>
+  <Config Name="PGID" Target="PGID" Default="100" Mode="" Description="Group ID the app runs as. Default 100 (users); must not be 0." Type="Variable" Display="advanced" Required="false" Mask="false">100</Config>
 </Container>

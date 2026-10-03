@@ -8,7 +8,7 @@ Maintained by [Mike Mitterer](https://github.com/MikeMitterer).
 | App | Description | Source | Image |
 |---|---|---|---|
 | **StockInfo** | Stock and ETF quotes via REST API (JSON) with Vue dashboard, SQLite cache and periodic refresh. Data sources: Yahoo Finance (yfinance), justETF, OpenFIGI. | [MikeMitterer/stockinfo](https://github.com/MikeMitterer/stockinfo) | [mangolila/stockinfo](https://hub.docker.com/r/mangolila/stockinfo) |
-| **StockPortfolio** | Browser-based portfolio management, valuation, price charts and rebalancing. Uses a separate StockInfo API; portfolio data stays in the browser. | [MikeMitterer/stockportfolio](https://github.com/MikeMitterer/stockportfolio) | [mangolila/stockportfolio](https://hub.docker.com/r/mangolila/stockportfolio) |
+| **StockPortfolio** | Portfolio management in the browser: valuation, price charts and rebalancing. Accounts and portfolios are stored in the container; prices come from a separate StockInfo API. | [MikeMitterer/stockportfolio](https://github.com/MikeMitterer/stockportfolio) | [mangolila/stockportfolio](https://hub.docker.com/r/mangolila/stockportfolio) |
 
 ## Support
 
@@ -23,7 +23,15 @@ wget -O /boot/config/plugins/dockerMan/templates-user/my-stockinfo.xml \
   https://raw.githubusercontent.com/MikeMitterer/unraid-templates/master/templates/stockinfo.xml
 ```
 
-Then add the container via Docker → Add Container and select the `stockinfo` template.
+For StockPortfolio, install StockInfo first, then:
+
+```bash
+wget -O /boot/config/plugins/dockerMan/templates-user/my-stockportfolio.xml \
+  https://raw.githubusercontent.com/MikeMitterer/unraid-templates/master/templates/stockportfolio.xml
+```
+
+Then add the container via Docker → Add Container and select the `stockinfo` or
+`stockportfolio` template.
 
 ## License
 

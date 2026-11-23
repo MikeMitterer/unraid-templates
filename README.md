@@ -15,23 +15,17 @@ Maintained by [Mike Mitterer](https://github.com/MikeMitterer).
 Please use the GitHub Issues of the respective app's source repository, e.g.
 [stockinfo/issues](https://github.com/MikeMitterer/stockinfo/issues).
 
-## Manual installation (without Community Applications)
+## Installation
 
-```bash
-mkdir -p /boot/config/plugins/dockerMan/templates-user
-wget -O /boot/config/plugins/dockerMan/templates-user/my-stockinfo.xml \
-  https://raw.githubusercontent.com/MikeMitterer/unraid-templates/master/templates/stockinfo.xml
-```
+Install the apps through **Apps / Community Applications** in the Unraid web
+interface. For StockPortfolio, install StockInfo first.
 
-For StockPortfolio, install StockInfo first, then:
-
-```bash
-wget -O /boot/config/plugins/dockerMan/templates-user/my-stockportfolio.xml \
-  https://raw.githubusercontent.com/MikeMitterer/unraid-templates/master/templates/stockportfolio.xml
-```
-
-Then add the container via Docker → Add Container and select the `stockinfo` or
-`stockportfolio` template.
+Each app's Unraid guide covers settings, data, updates and an optional test
+installation of the published template:
+[StockInfo](https://github.com/MikeMitterer/stockinfo/blob/master/unraid/README.md) ·
+[StockPortfolio](https://github.com/MikeMitterer/stockportfolio/blob/master/unraid/README.md).
+Never download a template over an existing `my-<name>.xml`: Unraid stores the
+saved container settings in that file.
 
 ## License
 
